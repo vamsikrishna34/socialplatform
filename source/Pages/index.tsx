@@ -87,7 +87,7 @@ export default function FeedPage() {
                 ❤️ <span>8</span>
               </button>
               <button className="flex items-center gap-1 text-muted hover:text-foreground">
-                💬 <span>5</span>
+                 <span>5</span>
               </button>
             </footer>
           </article>
