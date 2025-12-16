@@ -1,0 +1,31 @@
+
+:root {
+  /* Light mode (default) */
+  --background: #f8fafc;
+  --foreground: #1e293b;
+  --muted: #94a3b8;
+  --card: #ffffff;
+  --border: #e2e8f0;
+  --primary: #8b5cf6;
+  --primary-foreground: #ffffff;
+  --radius: 12px;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] {
+  /* Dark mode */
+  --background: #0f172a;
+  --foreground: #cbd5e1;
+  --muted: #64748b;
+  --card: #1e293b;
+  --border: #334155;
+  --primary: #a78bfa;
+  --primary-foreground: #000000;
+}
+
+/* Optional smooth transition for theme switch */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
