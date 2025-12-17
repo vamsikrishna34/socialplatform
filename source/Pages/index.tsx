@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import '@/styles/components/card.css';
 
 export default function FeedPage() {
   return (
